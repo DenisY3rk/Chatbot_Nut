@@ -231,17 +231,38 @@
       ]
     },
     {
-      "etiqueta": "dietas",
+      "etiqueta": "dietasdeportista",
       "patrones": [
         "Una dieta para un deportista ",
-        "Dieta para bajar de peso",
-        "Nut por favor dame una dieta para crecer"
+        "Dieta para deportista",
+        "Nut por favor dame una dieta para deportista"
       ],
       "respuestas": [
-        "Una dieta para un deportista es la siguiente:\nDESAYUNO\n200 cc. de leche con café y 25 g de azúcar 50 g de pan 15 g de mantequilla 20 g de miel\n ALMUERZO\n1 pieza de fruta 30 g de queso o jamón 50 g de galletas 200 cc de leche o producto lácteo\nCENA\n300 g de verduras y patatas 150 g de carne, pescado o huevos 150 g de legumbres o ensaladas 50 g de pan 200 cc de leche",
-        "Dieta para bajar de peso es la siguiente:\nDESAYUNO\nTostada integral con tomate y yogur con manzana\n ALMUERZO\nYogur desnatado con compota de manzana\nCENA\nMenestra de verduras. Albóndigas de ternera al horno. Kiwi.",
-        "Una dieta para crecer es la siguiente: \nDESAYUNO\ndos raciones de verdura diaria\n2 a 3 piezas o raciones de fruta al día\n2 a 3 raciones de alimentos proteicos al día (carne, pescado y huevos, de preferencia poco grasos)"
-        ]},  
+        "Una dieta para un deportista es la siguiente:\nDESAYUNO\n200 cc. de leche con café y 25 g de azúcar 50 g de pan 15 g de mantequilla 20 g de miel\n ALMUERZO\n1 pieza de fruta 30 g de queso o jamón 50 g de galletas 200 cc de leche o producto lácteo\nCENA\n300 g de verduras y patatas 150 g de carne, pescado o huevos 150 g de legumbres o ensaladas 50 g de pan 200 cc de leche"
+      ]
+      },
+      {
+        "etiqueta": "dietascrecer",
+        "patrones": [
+          "Una dieta para crecer",
+          "Dieta para crecer",
+          "Nut por favor dame una dieta para crecer"
+        ],
+        "respuestas": [
+          "Una dieta para crecer es la siguiente: \nDESAYUNO\ndos raciones de verdura diaria\n2 a 3 piezas o raciones de fruta al día\n2 a 3 raciones de alimentos proteicos al día (carne, pescado y huevos, de preferencia poco grasos)"
+          ]
+      }, 
+      {
+        "etiqueta": "dietasbajarpeso",
+        "patrones": [
+          "Una dieta para un bajar de peso ",
+          "Dieta para bajar de peso",
+          "Nut por favor dame una dieta para bajar de peso"
+        ],
+        "respuestas": [
+           "Dieta para bajar de peso es la siguiente:\nDESAYUNO\nTostada integral con tomate y yogur con manzana\n ALMUERZO\nYogur desnatado con compota de manzana\nCENA\nMenestra de verduras. Albóndigas de ternera al horno. Kiwi."
+          ]
+      }, 
       {
         "etiqueta": "Tiposdealimentos",
         "patrones": [
