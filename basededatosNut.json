@@ -1,0 +1,257 @@
+{
+  "dietas": [
+    {
+      "etiqueta": "saludo",
+      "patrones": [
+        "Hola",
+        "Oye",
+        "Cómo estás",
+        "¿Hay alguien ahí?",
+        "Hola",
+        "Buen día",
+        "Hello",
+        "Holis"
+      ],
+      "respuestas": [
+        "Hello I'm Nut, espero tengas un buen dia",
+        "Hola soy Nut, y tu como te llamas?",
+        "Hola soy Nut, ¿Qué puedo hacer por ti?",
+        "Hola soy Nut, ¿Como estas?",
+        "Hola soy Nut, Bienvenido a Cuerpo Sano Mente Sana",
+        "Hola soy Nut, ¿Como te fue hoy ?",
+        "Hola soy nut, ¿De donde eres?"
+      ]
+    },
+    {
+      "etiqueta": "adios",
+      "patrones": ["Adiós", "Hasta luego", "Adiós","Bye","Sayonara"],
+      "respuestas": [
+        "Hasta luego, gracias por visitarnos",
+        "Que tengas un buen día",
+        "¡Adiós! Vuelve pronto.",
+        "Gracias por su tiempo",
+        "Sin más que agregar, me despido. Cordialmente,",
+        "Hasta luego, Cuidate",
+        "Vuelve pronto"
+      ]
+    },
+    {
+      "etiqueta": "estado",
+      "patrones": ["mal ", "bien", "muy bien", "excelente"],
+      "respuestas": ["mal? por que, que necesitas ", "bien! aqui puedes consultar una dieta", ""]
+        },
+    {
+      "etiqueta": "gracias",
+      "patrones": ["Gracias", "Gracias", "Eso es útil", "¡Muchas gracias!"],
+      "respuestas": ["¡Feliz de ayudar!", "¡En cualquier momento!", "Es un placer"]
+        },
+    {
+      "etiqueta": "edad",
+      "patrones": [
+        "tengo 20 años ",
+        "tengo 60 años ",
+        "tengo 10 años ",
+        "tengo 30 años"
+      ],
+      "respuestas": [
+        "Estas muy viejo",
+        "Interesante eres mayor que yo, pero no te preocupes aquí te recomiendo una dieta saludable",
+        "Estas muy joven",
+        "Estas muy viejo"
+      ]
+    },
+    {
+      "etiqueta": "talla",
+      "patrones": [
+        "mido 1.80",
+        "1.80",
+        "1,80",
+        "1.80m",
+        "1,80m",
+        "1.80 m",
+        "1,80 m",
+        "mido 1.50",
+        "mi talla es 1.75",
+        "mido alrededor de 1.20"
+      ],
+      "respuestas": [
+        
+        "excelente ahora tu peso"
+ 
+      ]
+    },
+    {
+      "etiqueta": "Dietasniño",
+      "patrones": [
+        "Dieta para un niño",
+        "Dime una dieta para un niño",
+        "Dieta para niño",
+        "Dime una dieta para niño",
+        "Dieta para niño",
+        "Dieta para niño",
+        "Soy niño dime una dieta"
+      ],
+      "respuestas": [
+        "Dietas para niños son las siguente:\nDESAYUNO\n Cereales ricos en fibra leche zumo de naranja\n Media Manañana\n Yogur desnatado melocoton\n ALMUERZO\n Ternera ala plancha, Pan integran, Fresas, Frutos secos\nCENA\n Alcachofas con jamón Pechuga de pollo Fresas",
+        "Dieta para un niño es la siguente:\n Lácteos \n Cereales \n Verduras\n Frutas \n carne y huevos\n azúcar"
+        
+        
+    ]
+    },
+    {
+      "etiqueta": "Dietasadulto",
+      "patrones": [
+        "Dieta para un adulto",
+        "Dime una dieta para un adulto",
+        "Dieta para adulto",
+        "Dime una dieta para adulto",
+        "Dieta para adulto mayor",
+        "Dieta para adultos",
+        "Soy adulto dime una dieta"
+      ],
+      "respuestas": [
+        "Dieta para adulto es la siguente:\n Consuma Abundantes verduras, frutas y productos integrales\n Productos Lácteos bajos en grasa o sin grasa \n Carne\nPescado\nLentejas\nFrijoles\n No consuma mucha azucar o bebidas azucaradas",
+        "Como adulto mayor puedes consumir lo siguente:\nDESAYUNO:\nLeche semidescremada y pan con mantequilla\nALMUERZO:\nPure de papa con poca verdura\nCENA:\nArroz hervido con caldo"
+    ]
+    },
+    {
+      "etiqueta": "Comer",
+      "patrones": [
+        "tengo hambre",
+        "tengo muchas ganas de comer algo rico",
+        "que puedo cocinar hoy",
+        "nut que sugieres que coma hoy ",
+        "Estoy cansado pero no quiero comer"
+      ],
+      "respuestas": [
+        "Que te parece una plato balanceado con verduras está delicioso",
+        "Aver yo sugiero que antes tomes agua es necesario para que te idrates un poco",
+        "debes comer o vas a enfermarte"
+      ]
+    },
+    {
+      "etiqueta": "tipo",
+      "patrones": [
+        "que tipos de dietas tienes"
+        
+      
+      ],
+      "respuestas": [
+        "Tengo para enfermos, segun tipo de trabajo, de acuerdo a los deportes\nPara bajar de peso, para que puedes crecer sano y fuerte\nY muchas mas dietas segun lo que necesites"
+      ]
+    },
+    
+    {
+      "etiqueta": "Tiposdealimentos",
+      "patrones": [
+        "Tienes clasificacion de frutas?"      
+      ],
+      "respuestas": [
+        "claro por supuesto tenemos segun: Frutas ácidas\nFrutas semiácidas\nFrutas dulces\nFrutas neutras\nCual Prefieres?"
+       
+      ]
+    },
+    {
+      "etiqueta": "TiposdeFrutas",
+      "patrones": [
+        "Frutas ácidas",
+        "Frutas semiácidas",
+        "Frutas dulces",
+        "Frutas neutras"       
+      ],
+      "respuestas": [
+        "Frutas ácidas tenemos: guayaba, fresa, lima, mandarina, mango, \nmarañón, maní, malanga, melocotón, rábanos, sagú y tomateFrutas semiácidas\n",
+        "Frutas semiácidas tenemos: guayaba, fresa, lima, mandarina, mango, marañón\n maní, malanga, melocotón, rábanos, sagú y tomate.\nm",
+        "Frutas dulces tenemos: albaricoque, anón, cereza, chirimoya,\n ciruela (variedad), dátiles, granada, grosella, guanábana, guayaba (variedad), higo, manzana (variedad)Frutas semiácidas\nmelón, níspero (variedad), papaya, pera, pitahaya,\nsandía, uva (variedad) y zapote",
+        "Frutas neutras tenemos: aguacate, almendra, avellana, cacahuete, cacao,\ncastaña, coco, corozo, macadamia, maní y nuez.\n"
+    
+      ]
+    },
+    {
+      "etiqueta": "TiposdeFrutas",
+      "patrones": [
+        "Frutas ácidas",
+        "Frutas semiácidas",
+        "Frutas dulces",
+        "Frutas neutras"       
+      ],
+      "respuestas": [
+        "Frutas ácidas tenemos: guayaba, fresa, lima, mandarina, mango, \nmarañón, maní, malanga, melocotón, rábanos, sagú y tomateFrutas semiácidas\n",
+        "Frutas semiácidas tenemos: guayaba, fresa, lima, mandarina, mango, marañón\n maní, malanga, melocotón, rábanos, sagú y tomate.\nm",
+        "Frutas dulces tenemos: albaricoque, anón, cereza, chirimoya,\n ciruela (variedad), dátiles, granada, grosella, guanábana, guayaba (variedad), higo, manzana (variedad)Frutas semiácidas\nmelón, níspero (variedad), papaya, pera, pitahaya,\nsandía, uva (variedad) y zapote",
+        "Frutas neutras tenemos: aguacate, almendra, avellana, cacahuete, cacao,\ncastaña, coco, corozo, macadamia, maní y nuez.\n"
+       
+      ]
+    },
+    {
+      "etiqueta": "dietaenfermedades",
+      "patrones": [
+        "Una dieta problemas visuales",
+        "Tengp enfermedad",
+        "Una dieta para el resfrio",
+        "dieta para resfrio",
+        "Para evitar problemas cardiovasculares"
+      ],
+      "respuestas": [
+        "Una dieta para el resfrio es la siguiente: \nDESAYUNO\n Zumo de naranja, leche con miel y galletas. \nCOMIDA\n Pure de verduras, pechuga de pollo a la plancha con arroz, manzana. \nCENA\n Sopa de fideos, kiwi"
+        
+      ]
+    },
+    {
+      "etiqueta": "IMC",
+      "patrones": [
+        "quiero calculo por IMC",
+        "quiero dieta por IMC",
+        "quiero dieta según IMC",
+        "quiero dieta segun IMC"
+        
+      ],
+      "respuestas": [
+        "Dictame tu talla"
+      ]
+    },
+    {
+      "etiqueta": "peso",
+      "patrones": [
+        "peso 70kg",
+        "68kg",
+        "70kg",
+        "70 kg",
+        "70",
+        "peso 70k",
+        "68k",
+        "70k",
+        "peso 50kg",
+        "60kg",
+        "65k"
+        
+      ],
+      "respuestas": [
+        "Tu IMC se encuentra en el rango de 25 a 29 te recomiendo que preguntes por una dieta para bajar de peso"
+      ]
+    },
+    {
+      "etiqueta": "dietas",
+      "patrones": [
+        "Una dieta para un deportista ",
+        "Dieta para bajar de peso",
+        "Nut por favor dame una dieta para crecer"
+      ],
+      "respuestas": [
+        "Una dieta para un deportista es la siguiente:\nDESAYUNO\n200 cc. de leche con café y 25 g de azúcar 50 g de pan 15 g de mantequilla 20 g de miel\n ALMUERZO\n1 pieza de fruta 30 g de queso o jamón 50 g de galletas 200 cc de leche o producto lácteo\nCENA\n300 g de verduras y patatas 150 g de carne, pescado o huevos 150 g de legumbres o ensaladas 50 g de pan 200 cc de leche",
+        "Dieta para bajar de peso es la siguiente:\nDESAYUNO\nTostada integral con tomate y yogur con manzana\n ALMUERZO\nYogur desnatado con compota de manzana\nCENA\nMenestra de verduras. Albóndigas de ternera al horno. Kiwi.",
+        "Una dieta para crecer es la siguiente: \nDESAYUNO\ndos raciones de verdura diaria\n2 a 3 piezas o raciones de fruta al día\n2 a 3 raciones de alimentos proteicos al día (carne, pescado y huevos, de preferencia poco grasos)"
+        ]},  
+      {
+        "etiqueta": "Tiposdealimentos",
+        "patrones": [
+          "Tienes clasificacion de frutas?"      
+        ],
+        "respuestas": [
+          "claro por supuesto tenemos segun: Frutas ácidas\nFrutas semiácidas\nFrutas dulces\nFrutas neutras\nCual Prefieres?"
+         
+        ]
+      
+    }       
+  ]
+}
